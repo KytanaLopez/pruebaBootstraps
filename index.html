@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bootstrap</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+	<!-- Inicio Modal 1 -->
+
+				<!-- The Modal -->
+				<div class="modal" id="myModal">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+
+				      <!-- Modal Header -->
+				      <div class="modal-header">
+				        <h4 class="modal-title" style="color:#000000">Información Adicional</h4>
+				        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				      </div>
+
+				      <!-- Modal body -->
+				      <div class="modal-body" style="color:#000000">
+				        Este el cuerpo de la ventana Modal
+				        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure optio et ullam inventore mollitia quis minima sit. Fuga mollitia, quidem cum eveniet, magnam, illo architecto voluptatem atque maxime nesciunt consectetur?
+				      </div>
+
+				      <!-- Modal footer -->
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+				      </div>
+
+				    </div>
+				  </div>
+				</div>
+
+
+	<!-- Fin Modal 1 -->
+
+	<!--Inicio Corousel  -->
+	<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/la.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="img/chicago.jpg" alt="Chicago" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="img/ny.jpg" alt="New York" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="img/slider4.jpg" alt="New York" class="d-block" style="width:100%">
+    </div>
+     <div class="carousel-item">
+      <img src="img/slider5.jpg" alt="New York" class="d-block" style="width:100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<div class="container-fluid mt-3">
+  <h3>Carousel Example</h3>
+  <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+</div>
+
+	<!-- Fin Corousel -->
+
+
+
+	<div class="container">
+		
+		<button type="button" class="btn btn-danger">Eliminar</button>
+		<h2>Container</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	</div>
+
+
+	<div class="container-fluid">
+		<button type="button" class="btn btn-primary">Agregar</button>
+
+		<h2>Container-fluid</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+		<h2>Dividir nuestra página web</h2>
+
+		<h2>Grid - 12 Columnas</h2>
+
+		<!-- Filas, Columnas -->
+
+		<h2>Dividir mi página web en 2 columnas -- row - Filas - col - columnas</h2>
+
+		<div class="row">
+			<div class="col-sm-6" style="background-color: #1c99c8;">
+
+				<h3>Primera Columna</h3>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum voluptatum qui quasi eligendi natus id perferendis error saepe similique ullam labore, vitae impedit voluptatem assumenda cumque ex quos fuga. Odio.</p>
+
+				<!-- Inicio Botón Modal -->
+								<div class="container mt-3">
+								  <h3>Modal Example</h3>
+								  <p>Click on the button to open the modal.</p>
+								  
+								  <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#myModal">
+								    Open modal
+								  </button>
+								  <br>
+								</div>
+				<!-- Fin Botón Modal -->
+
+			</div>
+			<div class="col-sm-6" style="background-color: #20bdf9;">
+				<h3>Segunda Columna</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestiae reprehenderit autem explicabo aspernatur, quia expedita aliquam ducimus repellendus vero! Sapiente error tempore tempora modi ducimus ut dolorum libero beatae.</p>
+			</div>
+
+
+
+		</div>
+
+		<div class="row">
+			
+			<div class="col-sm-6" style="background-color: #fadbd8; color: #000000;">
+				<h3>Primera Columna</h3>
+				<button type="button" class="btn btn-primary">Agregar</button>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae sequi, minima doloremque accusantium sit fuga sapiente earum. Ipsum earum totam blanditiis quisquam similique autem non, incidunt quidem deleniti ipsam ea?</p>
+				
+			</div>
+
+			<div class="col-sm-4" style="background-color: #f9e79f; color: #000000;">
+				<h3>Segunda Columna</h3>
+				<button type="button" class="btn btn-secondary">Agregar</button>
+				<p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Ex id illo distinctio, sapiente amet, fuga laborum! Enim, architecto, quia? Harum tenetur aut impedit atque a quas, sint laboriosam necessitatibus numquam.</p>
+				
+			</div>
+
+			<div class="col-sm-2" style="background-color: #DAF7A6; color: #000000;">
+				<h3>Tercera Columna</h3>
+				<button type="button" class="btn btn-danger">Agregar</button>
+				<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Porro iusto explicabo et, fugit numquam eaque! Alias doloribus ad ipsum optio ut dignissimos distinctio minus quas minima explicabo quo, nobis enim.</p>
+				
+			</div>
+		</div>
+
+	</div>
+
+
+
+
+
+
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

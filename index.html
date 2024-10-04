@@ -11,6 +11,23 @@
 </head>
 <body>
 
+	<!-- Inicio Offcanva -->
+<div class="offcanvas offcanvas-start" id="demo">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title">Redes Sociales</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Facebook</p>
+    <p>Facebook</p>
+    <p>Facebook</p>
+    <button class="btn btn-secondary" type="button">Ver más</button>
+  </div>
+</div>
+
+
+	<!-- Fin Offcanva -->
+
 <!-- Inicio del Nav -->
 <nav class="navbar navbar-expand-lg bg-warning">
 	<div class="container-fluid">
@@ -46,7 +63,6 @@
 
 <!-- Fin del nav -->
 
-
 	<!-- Inicio Modal 1 -->
 
 				<!-- The Modal -->
@@ -64,6 +80,39 @@
 				      <div class="modal-body" style="color:#000000">
 				        Este el cuerpo de la ventana Modal
 				        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure optio et ullam inventore mollitia quis minima sit. Fuga mollitia, quidem cum eveniet, magnam, illo architecto voluptatem atque maxime nesciunt consectetur?
+				      </div>
+
+				      <!-- Modal footer -->
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+				      </div>
+
+				    </div>
+				  </div>
+				</div>
+
+
+	<!-- Fin Modal 1 -->
+
+
+
+	<!-- Inicio Modal 2 -->
+
+				<!-- The Modal -->
+				<div class="modal" id="myModal2">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+
+				      <!-- Modal Header -->
+				      <div class="modal-header">
+				        <h4 class="modal-title" style="color:#000000">Calletana López Baleta</h4>
+				        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+				      </div>
+
+				      <!-- Modal body -->
+				      <div class="modal-body" style="color:#000000">
+				        Ingeniera de Sistemas
+				        Especialista en TIC
 				      </div>
 
 				      <!-- Modal footer -->
@@ -131,6 +180,12 @@
 	<div class="container">
 		
 		<button type="button" class="btn btn-danger">Eliminar</button>
+		<br>
+		<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+    Ver Offcanvas
+  	</button>
+
+
 		<h2>Container</h2>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -146,6 +201,29 @@
 		<button type="button" class="btn btn-primary">Agregar</button>
 
 		<h2>Container-fluid</h2>
+		<!-- Inicio Card -->
+		<div class="container mt-3">
+  <h2>Card Image</h2>
+  <p>Image at the top (card-img-top):</p>
+  <div class="card" style="width:250px">
+    <img class="card-img-top" src="img/img_avatar1.png" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">Calletana López</h4>
+      <p class="card-text">Ingeniera de Sistemas</p>
+      <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#myModal2">
+								    Open modal
+			</button>
+    </div>
+  </div>
+
+
+
+		<!-- Cierra Card -->
+
+
+
+
+
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
